@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <title>Login - FlyOS Cloud</title>
+        <link rel="stylesheet" href="/static/css/login.css" type="text/css">
+    </head>
+    <body>
+        <div class="login-box">
+            <form action="/login" method="post">
+                <h2>FlyOS Cloud - Login</h2><br>
+                <input type="text" name="username" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"><br>
+                <input type="password" name="password" class="form-control" placeholder="Password" aria-label="password" aria-describedby="basic-addon1"><br>
+                <a href="#forgetpassword">Forget password?</a><br><br>
+                <input type="submit" class="btn btn-primary" value="Sign in">
+            </form>
+        </div>
+        <script src="/static/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
