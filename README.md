@@ -1,2 +1,2 @@
 # FlyOS_Login
-FlyOS Login static page ^v^
+FlyOS Login page ^v^
